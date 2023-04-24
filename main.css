@@ -16,7 +16,7 @@ a:hover{
 nav{
   height: 80px;
   background-color: black;
-  display: flex;
+  display: grid;
   justify-content: space-around;
   align-items: center;
 }
@@ -52,7 +52,7 @@ footer{
   color: black;
 }
 
-.headline-sec{
+.headline-sub{
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 24px;
@@ -111,7 +111,7 @@ footer{
   font-size: 16px;
   text-align: left;
 }
-.column {
+.footer-column {
   display: flex;
   flex-direction: column;
   padding: 0 15px;
